@@ -18,7 +18,7 @@ module.exports = class {
     this.api.init();
     this.api.waitForElementVisible("#app");
 
-    const result = await this.api.elements("css selector", "#app ul");
+    const result = await this.api.elements("css selector", "#app header");
     assert.strictEqual(result.value.length, 3);
   }
 };

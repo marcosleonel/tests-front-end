@@ -37,7 +37,7 @@ module.exports = {
         welcome: {
           // the equivalent css selector for the "welcome" sub-section would be:
           //  '#app div.hello'
-          selector: "div.hello",
+          selector: "div.home",
 
           elements: {
             cliPluginLinks: {
