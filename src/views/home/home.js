@@ -40,7 +40,6 @@ const home = {
     },
     validateForm() {
       const lookLikeABitch = this.form.lookLike.indexOf("A Bitch") >= 0;
-      console.log(lookLikeABitch);
 
       if (this.form.businessPartner === "Marsellus Wallace" && lookLikeABitch) {
         this.updateResult("shoot");
